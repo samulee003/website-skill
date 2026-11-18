@@ -1,6 +1,6 @@
 ---
 name: web-design-master
-description: "End-to-end web design and frontend delivery: art direction, UI and design systems, responsive implementation, interaction and motion, visual QA, interface review, and accessibility. Use when creating, implementing, improving, or auditing websites, web apps, landing/pricing pages, or design systems from a brief, reference, mockup, or existing code."
+description: "End-to-end web design and frontend delivery: art direction, design systems, responsive implementation, motion, visual QA, and accessibility. Use when asked to build a website or landing/pricing page, implement a mockup or reference, restyle or fix a UI, make a page responsive or accessible, or audit/review a page or frontend diff. Not for backend-only, native-app, or pure graphic/brand design work."
 ---
 
 # Web Design Master
@@ -23,6 +23,13 @@ Use this skill to carry a web experience from brief to verified implementation. 
 5. Prefer a distinct, coherent visual direction over generic SaaS/AI-template styling. Add a few deliberate, reusable identity cues; do not compensate for weak hierarchy with gradients, glass cards, shadows, or decoration.
 6. Verify in a real browser or equivalent runtime when available. A successful build is necessary, not proof of visual, responsive, interaction, or accessibility quality.
 7. Separate implementation from evaluation. Use the acceptance criteria and actual browser evidence to critique the result; do not treat the generator's own praise as review.
+
+## Scale to task size
+
+- **Small change** (a component, bug, copy or style tweak): do steps 1, 5, 8 and 10 only for the affected area, skip direction comparison and a full design contract, and state the acceptance check in one or two lines.
+- **Medium** (a page or flow): full contract in brief form, one chosen direction with a short rationale, and all verification steps.
+- **Large** (new site or design system): run the full workflow below.
+- Respond in the user's language.
 
 ## End-to-end workflow
 
@@ -51,7 +58,7 @@ Use this skill to carry a web experience from brief to verified implementation. 
 
 ## Definition of done
 
-Do not call the work complete until all applicable gates pass or the remaining gaps are explicit:
+Do not call the work complete until all applicable gates pass or the remaining gaps are explicit. If a gate cannot be run (no browser, no build tooling), list it as unverified rather than blocking or claiming it passed:
 
 - **Intent**: audience, primary task, content hierarchy, unique primary CTA, and visual direction are clear.
 - **Identity and craft**: the result has at least two deliberate identity decisions beyond a stock component-library default; typography, spacing, color, imagery, icons, and states are coherent.
