@@ -20,6 +20,8 @@ Skill 會優先沿用專案既有架構，不會為了外觀任意更換框架�
 git clone https://github.com/samulee003/website-skill.git web-design-master
 ```
 
+資料夾名稱須與 `SKILL.md` 的 `name`（`web-design-master`）一致。常見位置例如 Claude Code 的 `~/.claude/skills/`（個人）或專案內的 `.claude/skills/`；其他工具請參考其文件。
+
 之後把 `web-design-master` 資料夾移至該工具的 Skills 目錄，並依工具要求重新載入或啟用 Skill。若工具提供從 GitHub 匯入 Skill 的功能，也可匯入此 repository，並確認 `references/` 一併保留。
 
 ## 使用
